@@ -1,0 +1,38 @@
+<html>
+<header>
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+  <script src="jquery-3.6.4.js"></script>
+  <script src="assets/owl-carousel/owl.carousel.js"></script>
+</header>
+<body>
+
+  <div class="owl-carousel owl-theme">
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    ...
+  </div>
+
+<script>
+    $(document).ready(function() {
+ 
+ $("#owl-demo").owlCarousel({
+
+     autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+     items : 4,
+     itemsDesktop : [1199,3],
+     itemsDesktopSmall : [979,3]
+
+ });
+
+});
+</script>
+</body>
+
+</html>
