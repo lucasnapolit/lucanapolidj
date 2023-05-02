@@ -69,7 +69,7 @@ body {
     background-image: url("back.jpg");
     
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
     filter : grayscale(100%);
