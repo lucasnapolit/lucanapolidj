@@ -39,7 +39,7 @@ body {
     align-items: center;
     color: white;
     text-shadow: 1px 1px 1px black;
-    background-image: url("seconback.jpg");
+    background-image: url("promovideo.MOV");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,6 +88,19 @@ body {
     background-size: cover;
   }
     #releases {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #sets {
     height: auto;
     display: flex;
     justify-content: center;
@@ -357,4 +370,24 @@ body {
   }
   .owl-carrousel .item-video {
     height: 300px;
+  }
+  .player {
+    text-align: center;
+  }
+  
+  .player-controls {
+    margin-bottom: 10px;
+  }
+  
+  .progress-container {
+    margin-top: 10px;
+  }
+  
+  .playlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .playlist li {
+    cursor: pointer;
   }
